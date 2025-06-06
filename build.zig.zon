@@ -1,0 +1,16 @@
+.{
+    .name = .microcdr,
+    .version = "2.0.1",
+    .fingerprint = 0xabde81f16e7acaf2,
+    .minimum_zig_version = "0.14.0",
+    .dependencies = .{
+        .microcdr = .{
+            .url = "https://github.com/eProsima/Micro-CDR/archive/5a198fca92fba1819a04a7a6b9da5b2cbab008fd.tar.gz",
+            .hash = "N-V-__8AAH9lAwBFqqRQt3htbfQayY1PYh3oDZJe-Lh05B-q",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+    },
+}
